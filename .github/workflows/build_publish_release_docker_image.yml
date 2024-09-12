@@ -29,7 +29,6 @@ jobs:
           tag: test
           imageName: ttionya/rclone
           platform: linux/amd64,linux/386,linux/arm64,linux/arm/v7,linux/arm/v6
-          load: true
 
   build_docker_volume_plugin:
     if: github.repository == 'rclone/rclone'
